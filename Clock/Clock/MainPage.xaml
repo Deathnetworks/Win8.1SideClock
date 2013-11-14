@@ -8,6 +8,18 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:Name="ClockText" HorizontalAlignment="Center"
+                    VerticalAlignment="Center" TextWrapping="NoWrap" Text="Current Time" FontSize="45" FontWeight="Bold" FontFamily="Segoe UI Black" RenderTransformOrigin="0.498,0.443" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" IsHitTestVisible="False">
+            <TextBlock.RenderTransform>
+                <CompositeTransform/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock x:Name="DateText"
+                    VerticalAlignment="Top" HorizontalAlignment="Center" TextWrapping="NoWrap" Text="Current Date" FontSize="45" FontWeight="Bold" FontFamily="Segoe UI Black" RenderTransformOrigin="0.498,0.443" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" IsHitTestVisible="False" MaxWidth="320">
+            <TextBlock.RenderTransform>
+                <CompositeTransform/>
+            </TextBlock.RenderTransform>
+        </TextBlock>
 
     </Grid>
 </Page>
