@@ -36,7 +36,7 @@ namespace Clock
 
             timer = new DispatcherTimer();
             timer.Tick += DispatcherTimerEventHandler;
-            timer.Interval = new TimeSpan(0, 0, 0, 1);
+            timer.Interval = new TimeSpan(0, 0, 0, 0, 500);
             timer.Start();
         }        
 
